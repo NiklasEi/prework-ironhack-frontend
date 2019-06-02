@@ -2,11 +2,17 @@ html, body {
   margin: 0;
 }
 
+a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+/* nav */
 nav {
   background-color: #C12127;
   color: rgba(255, 255, 255, 0.8);
   font-family: helvetica;
-  padding: 5px;
+  padding: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -30,4 +36,157 @@ nav div, nav ul {
 .top-links li {
   display: inline-block;
   margin: 0 10px;
+}
+
+.header-div {
+  background-image: url("images/city-scape.svg");
+  background-size: cover;
+}
+
+/* header top */
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.npm-logo,
+.search-form,
+.header-top-links {
+  height: inherit;
+}
+
+.search-form {
+  flex-basis: 3;
+  position: relative;
+  top: 15px;
+}
+
+.search-text {
+  width: 200px;
+  background-color: rgb(31, 82, 111);
+}
+
+.header-top-links li {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+  vertical-align: middle;
+  height: inherit;
+}
+
+.header-top-links li img {
+  height: inherit;
+  vertical-align: middle;
+  position: relative;
+  top: -15px;
+}
+
+/* header bottom */
+.header-bottom {
+  color: white;
+  margin: 0 auto;
+  padding-left: 10%;
+  width: 70%;
+  padding-bottom: 50px;
+}
+
+.header-bottom button {
+  color: white;
+  background-color: rgb(240, 146, 51);
+  border-color: rgb(240, 146, 51);
+  border-radius: 10px;
+}
+
+.header-bottom img {
+  float: right;
+  width: 80%;
+}
+
+
+/* collaboration section */
+#collaboration {
+  padding: 20px 0 20px 0;
+  overflow: hidden;
+  color: white;
+  background-color: rgb(39, 53, 71);
+}
+
+#collaboration button {
+  color: white;
+  background-color: rgb(203, 56, 55);
+  border-color: rgb(203, 56, 55);
+  border-radius: 10px;
+}
+
+#collaboration img {
+  width: 25%;
+  float: left;
+  padding-left: 20%;
+  padding-right: 5%;
+}
+
+#collaboration div {
+  float: left;
+  width: 30%;
+  padding-right: 20%;
+  padding-top: 20px;
+}
+
+/* what-is-npm */
+#what-is-npm {
+  overflow: hidden;
+  position: relative;
+  padding: 100px 0 100px 0;
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  color: white;
+}
+
+#what-is-npm div {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+#what-is-npm button {
+  color: white;
+  background-color: rgb(49, 68, 88);
+  border-color: rgb(49, 68, 88);
+  border-radius: 10px;
+}
+
+/* possibilities */
+#possibilities a {
+  color: rgb(208, 74, 73);
+}
+
+#possibilities h3 {
+  color: rgb(83, 88, 98);
+}
+
+#possibilities p {
+  color: rgb(135, 145, 156)
+}
+
+#possibilities > div {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.possibilities-list {
+  overflow: hidden;
+}
+
+.possibilities-list div {
+  width: 20%;
+  padding: 0 5% 0 5%;
+  float: left;
 }

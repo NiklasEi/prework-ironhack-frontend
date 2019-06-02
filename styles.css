@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: helvetica;
+  padding: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+nav div, nav ul {
+  display: inline;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
